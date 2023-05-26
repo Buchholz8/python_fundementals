@@ -36,5 +36,21 @@ dynamic_gretting('bob')
 dynamic_gretting('jill')
 dynamic_gretting('jack')
 
+atlantic_conf = ['bruins' , 'maple leafs' , 'lightning', 'panthers' , 'sabers' , 'sensators' , 'red wings' , 'canadians']
+metro_conf = ['hurricanes' , 'devils' , 'rangers' , 'islanders' , 'penguins' , 'capitals' , 'flyers' , 'blue jackets' , 'treasure']
+
+def search_tres(find_t):
+    for look in find_t:
+        if(look == 'treasure'):
+            return True
+        return False
+contains_t = search_tres(atlantic_conf)
+
+def search_tres(find_t):
+    for look in find_t:
+        if(look == 'treasure'):
+            return True
+        return False
+contains_t = search_tres(metro_conf)
 
 
